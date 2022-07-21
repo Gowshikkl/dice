@@ -33,7 +33,7 @@ else{
 }
 function image(){
     if(!started){
-        var roll1 = new Audio('/MANYDICE.wav');
+        var roll1 = new Audio('MANYDICE.wav');
         roll1.play();
     
     $(".img1").addClass("imgSpin");
@@ -45,7 +45,7 @@ function image(){
 }
 }
 function image1(){
-    var roll2 = new Audio('/MANYDICE.wav');
+    var roll2 = new Audio('MANYDICE.wav');
     roll2.play();
 
     $(".img2").addClass("imgSpin");
