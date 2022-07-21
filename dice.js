@@ -3,7 +3,7 @@ var random2 =[];
 var started = false;
 function dice1(){
      var random = (Math.floor(Math.random()*6 + 1));    
-     document.querySelector(".img1").setAttribute("src","/images/dice"+random+".png");
+     document.querySelector(".img1").setAttribute("src","dice"+random+".png");
      random1.push(random);
      setTimeout(function(){
         $("h1").text("Player 2 roll your dice 🎲");
@@ -14,7 +14,7 @@ function dice1(){
 console.log(random1);
 function dice2(){
    var  random = (Math.floor(Math.random()*6 + 1));
-   document.querySelector(".img2").setAttribute("src","/images/dice"+random+".png");
+   document.querySelector(".img2").setAttribute("src","dice"+random+".png");
    random2.push(random);
 }
 console.log(random2[0]);
